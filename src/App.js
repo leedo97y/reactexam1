@@ -20,17 +20,17 @@ function App() {
     }
   };
 
-  const func = () => {
-    return "func";
-  };
+  // const func = () => {
+  //   return "func";
+  // };
 
-  const number = 5;
+  //const number = 5;
 
   return (
   <div style={style.App}>
       <MyHeader/>
       <Counter/>
-      
+
       {/* <h2 style={style.h2}>안녕 리액트 {name} {func()}</h2>
       <b id='bold_text' style={style.bold_text}>
         {number}는 : {number % 2 === 0 ? "짝수" : "홀수"}
